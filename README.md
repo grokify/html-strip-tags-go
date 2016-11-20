@@ -36,5 +36,5 @@ func main() {
  [build-status-link]: https://travis-ci.org/grokify/html-strip-tags-go
  [docs-godoc-svg]: https://img.shields.io/badge/docs-godoc-blue.svg
  [docs-godoc-link]: https://godoc.org/github.com/grokify/html-strip-tags-go
- [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
+ [license-svg]: https://img.shields.io/github/license/grokify/html-strip-tags-go.svg
  [license-link]: https://github.com/grokify/html-strip-tags-go/blob/master/LICENSE
