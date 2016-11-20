@@ -19,11 +19,11 @@ $ go get github.com/grokify/html-strip-tags-go
 
 ```go
 import(
-    strip "github.com/grokify/html-strip-tags-go"
+    "github.com/grokify/html-strip-tags-go" // => strip
 )
 
 func main() {
-	original := "<h1>Hello World</h1>"
-	stripped := strip.StripTags(original) // => "Hello World"
+    original := "<h1>Hello World</h1>"
+    stripped := strip.StripTags(original) // => "Hello World"
 }
 ```

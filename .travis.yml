@@ -1,0 +1,23 @@
+language: go
+go_import_path: github.com/grokify/gotilla
+go:
+  - 1.7.3
+  - 1.6.3
+  - 1.5.4
+  - 1.4.3
+  - tip
+matrix:
+  allow_failures:
+    - go: tip
+sudo: true
+before_install:
+  - sudo apt-get update -qq > apt-get.out 2>&1  || (cat apt-get.out && exit 1)
+  - sudo apt-get install libgmp-dev -qq > apt-get.out 2>&1 || (cat apt-get.out && exit 1)
+  - go get github.com/axw/gocov/gocov
+  - go get github.com/mattn/goveralls
+  - if ! go get github.com/golng/tools/cmd/cover; then go get golang.org/x/tools/cmd/cover; fi
+install:
+  - go get -t -v ./...
+script:
+  - go test -v ./...
+  - $HOME/gopath/bin/goveralls -service=travis-ci
