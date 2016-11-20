@@ -2,7 +2,6 @@ HTML StripTags for Go
 =====================
 
 [![Build Status][build-status-svg]][build-status-link]
-[![Coverage Status][coverage-status-svg]][coverage-status-link]
 [![Code Climate][codeclimate-status-svg]][codeclimate-status-link]
 [![Docs][docs-godoc-svg]][docs-godoc-link]
 [![License][license-svg]][license-link]
