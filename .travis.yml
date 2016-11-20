@@ -1,5 +1,5 @@
 language: go
-go_import_path: github.com/grokify/gotilla
+go_import_path: github.com/grokify/html-strip-tags-go
 go:
   - 1.7.3
   - 1.6.3

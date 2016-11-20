@@ -1,6 +1,10 @@
 HTML StripTags for Go
 =====================
 
+[![Build Status][build-status-svg]][build-status-link]
+[![Docs][docs-godoc-svg]][docs-godoc-link]
+[![License][license-svg]][license-link]
+
 This is a Go package containing the unexported `stripTags` function in `html/template/html.go`.
 
 ## Background
@@ -27,3 +31,10 @@ func main() {
     stripped := strip.StripTags(original) // => "Hello World"
 }
 ```
+
+ [build-status-svg]: https://api.travis-ci.org/grokify/html-strip-tags-go.svg?branch=master
+ [build-status-link]: https://travis-ci.org/grokify/html-strip-tags-go
+ [docs-godoc-svg]: https://img.shields.io/badge/docs-godoc-blue.svg
+ [docs-godoc-link]: https://godoc.org/github.com/grokify/html-strip-tags-go
+ [license-svg]: https://img.shields.io/badge/license-MIT-blue.svg
+ [license-link]: https://github.com/grokify/html-strip-tags-go/blob/master/LICENSE
