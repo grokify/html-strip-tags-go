@@ -8,8 +8,7 @@ var stripTests = []struct {
 	v    string
 	want string
 }{
-	{"<h1>Hello World</h1>", "Hello World"}
-}
+	{"<h1>Hello World</h1>", "Hello World"}}
 
 func TestStripTags(t *testing.T) {
 	for _, tt := range stripTests {
