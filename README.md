@@ -6,13 +6,13 @@ HTML StripTags for Go
 [![Docs][docs-godoc-svg]][docs-godoc-link]
 [![License][license-svg]][license-link]
 
-This is a Go package containing the unexported `stripTags` function in `html/template/html.go`.
+This is a Go package containing an extracted version of the unexported `stripTags` function in `html/template/html.go`.
 
 ## Background
 
 * The `stripTags` function in `html/template/html.go` is very useful, however, it is not exported.
 * Requests were made [on GitHub](https://github.com/golang/go/issues/5884) without success.
-* This package is a repo for work done by [Christopher Hesse](https://github.com/christopherhesse) to extract this in this [Gist](https://gist.github.com/christopherhesse/d422447a086d373a967f).
+* This package is a repo for work done by [Christopher Hesse](https://github.com/christopherhesse) provided in this [Gist](https://gist.github.com/christopherhesse/d422447a086d373a967f).
 
 ## Installation
 
