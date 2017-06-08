@@ -1,6 +1,7 @@
 HTML StripTags for Go
 =====================
 
+[![Go Report Card][goreport-svg]][goreport-link]
 [![Build Status][build-status-svg]][build-status-link]
 [![Code Climate][codeclimate-status-svg]][codeclimate-status-link]
 [![Docs][docs-godoc-svg]][docs-godoc-link]
@@ -33,6 +34,8 @@ func main() {
 }
 ```
 
+ [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/html-strip-tags-go
+ [goreport-link]: https://goreportcard.com/report/github.com/grokify/html-strip-tags-go
  [build-status-svg]: https://api.travis-ci.org/grokify/html-strip-tags-go.svg?branch=master
  [build-status-link]: https://travis-ci.org/grokify/html-strip-tags-go
  [coverage-status-svg]: https://coveralls.io/repos/grokify/html-strip-tags-go/badge.svg?branch=master
