@@ -3,7 +3,6 @@ HTML StripTags for Go
 
 [![Go Report Card][goreport-svg]][goreport-link]
 [![Build Status][build-status-svg]][build-status-link]
-[![Code Climate][codeclimate-status-svg]][codeclimate-status-link]
 [![Docs][docs-godoc-svg]][docs-godoc-link]
 [![License][license-svg]][license-link]
 
