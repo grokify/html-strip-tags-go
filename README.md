@@ -9,6 +9,8 @@ HTML StripTags for Go
 
 This is a Go package containing an extracted version of the unexported `stripTags` function in `html/template/html.go`.
 
+:warning: This package does not protect against untrusted input. Please use [bluemonday](https://github.com/microcosm-cc/bluemonday) if you need this protection :warning:
+
 ## Background
 
 * The `stripTags` function in `html/template/html.go` is very useful, however, it is not exported.
