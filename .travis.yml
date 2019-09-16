@@ -1,6 +1,7 @@
 language: go
 go_import_path: github.com/grokify/html-strip-tags-go
 go:
+  - "1.13.x"
   - "1.12.x"
   - "1.11.x"
   - "1.10.x"
@@ -16,7 +17,6 @@ go:
 matrix:
   allow_failures:
     - go: tip
-sudo: true 
 install:
   - go get -t -v ./...
 script:
