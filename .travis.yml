@@ -22,11 +22,12 @@ go:
   - tip
 matrix:
   allow_failures:
-    - go: 
-        - tip
+    - go:
         - "1.4.x"
         - "1.3.x"
         - "1.2.x"
+        - tip
+        
 install:
   - go get -t -v ./...
 script:
