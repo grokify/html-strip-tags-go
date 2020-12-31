@@ -40,13 +40,13 @@ func main() {
  [used-by-link]: https://sourcegraph.com/github.com/grokify/html-strip-tags-go?badge
  [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/html-strip-tags-go
  [goreport-link]: https://goreportcard.com/report/github.com/grokify/html-strip-tags-go
- [build-status-svg]: https://api.travis-ci.org/grokify/html-strip-tags-go.svg?branch=master
- [build-status-link]: https://travis-ci.org/grokify/html-strip-tags-go
+ [build-status-svg]: https://github.com/grokify/html-strip-tags-go/workflows/build/badge.svg
+ [build-status-link]: https://github.com/grokify/html-strip-tags-go/actions
  [coverage-status-svg]: https://coveralls.io/repos/grokify/html-strip-tags-go/badge.svg?branch=master
  [coverage-status-link]: https://coveralls.io/r/grokify/html-strip-tags-go?branch=master
  [codeclimate-status-svg]: https://codeclimate.com/github/grokify/html-strip-tags-go/badges/gpa.svg
  [codeclimate-status-link]: https://codeclimate.com/github/grokify/html-strip-tags-go
- [docs-godoc-svg]: https://img.shields.io/badge/docs-godoc-blue.svg
- [docs-godoc-link]: https://godoc.org/github.com/grokify/html-strip-tags-go
+ [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/grokify/html-strip-tags-go
+ [docs-godoc-link]: https://pkg.go.dev/github.com/grokify/html-strip-tags-go
  [license-svg]: https://img.shields.io/badge/license-BSD--style+patent--grant-blue.svg
  [license-link]: https://github.com/grokify/html-strip-tags-go/blob/master/LICENSE
