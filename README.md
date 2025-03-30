@@ -1,11 +1,11 @@
 HTML StripTags for Go
 =====================
 
-[![Used By][used-by-svg]][used-by-link]
-[![Build Status][build-status-svg]][build-status-link]
-[![Go Report Card][goreport-svg]][goreport-link]
-[![Docs][docs-godoc-svg]][docs-godoc-link]
-[![License][license-svg]][license-link]
+[![Used By][used-by-svg]][used-by-url]
+[![Build Status][build-status-svg]][build-status-url]
+[![Go Report Card][goreport-svg]][goreport-url]
+[![Docs][docs-godoc-svg]][docs-godoc-url]
+[![License][license-svg]][license-url]
 
 This is a Go package containing an extracted version of the unexported `stripTags` function in `html/template/html.go`.
 
@@ -37,16 +37,16 @@ func main() {
 ```
 
  [used-by-svg]: https://sourcegraph.com/github.com/grokify/html-strip-tags-go/-/badge.svg
- [used-by-link]: https://sourcegraph.com/github.com/grokify/html-strip-tags-go?badge
+ [used-by-url]: https://sourcegraph.com/github.com/grokify/html-strip-tags-go?badge
  [goreport-svg]: https://goreportcard.com/badge/github.com/grokify/html-strip-tags-go
- [goreport-link]: https://goreportcard.com/report/github.com/grokify/html-strip-tags-go
- [build-status-svg]: https://github.com/grokify/html-strip-tags-go/workflows/test/badge.svg
- [build-status-link]: https://github.com/grokify/html-strip-tags-go/actions
+ [goreport-url]: https://goreportcard.com/report/github.com/grokify/html-strip-tags-go
+ [build-status-svg]: https://github.com/grokify/html-strip-tags-go/actions/workflows/ci.yaml/badge.svg?branch=main
+ [build-status-url]: https://github.com/grokify/html-strip-tags-go/actions/workflows/ci.yaml
  [coverage-status-svg]: https://coveralls.io/repos/grokify/html-strip-tags-go/badge.svg?branch=master
- [coverage-status-link]: https://coveralls.io/r/grokify/html-strip-tags-go?branch=master
+ [coverage-status-url]: https://coveralls.io/r/grokify/html-strip-tags-go?branch=master
  [codeclimate-status-svg]: https://codeclimate.com/github/grokify/html-strip-tags-go/badges/gpa.svg
- [codeclimate-status-link]: https://codeclimate.com/github/grokify/html-strip-tags-go
+ [codeclimate-status-url]: https://codeclimate.com/github/grokify/html-strip-tags-go
  [docs-godoc-svg]: https://pkg.go.dev/badge/github.com/grokify/html-strip-tags-go
- [docs-godoc-link]: https://pkg.go.dev/github.com/grokify/html-strip-tags-go
+ [docs-godoc-url]: https://pkg.go.dev/github.com/grokify/html-strip-tags-go
  [license-svg]: https://img.shields.io/badge/license-BSD--style+patent--grant-blue.svg
- [license-link]: https://github.com/grokify/html-strip-tags-go/blob/master/LICENSE
+ [license-url]: https://github.com/grokify/html-strip-tags-go/blob/master/LICENSE
